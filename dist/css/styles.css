@@ -3077,14 +3077,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  color: #eef6f6;
+  background-color: #084a50;
+  border-color: #5f42e0;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
-  border-color: #50817e;
+  background-color: #5f42e0;
+  border-color: #084a50;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -4110,7 +4110,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #50817e;
+  color: #084a50;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11567,7 +11567,7 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #084a50;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11658,12 +11658,16 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: rgb(54,60,60);
+  background: linear-gradient(90deg, rgba(54,60,60,1) 0%, rgba(44,88,85,0.9836309523809523) 35%, rgba(51,133,121,0.896796218487395) 100%);
 }
+
 .projects-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
+    font-weight: bolder;
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
